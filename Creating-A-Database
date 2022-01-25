@@ -1,0 +1,28 @@
+--USE master;
+
+--CREATE DATABASE Sales;
+
+--CREATE TABLE Customers (
+--	Id INT PRIMARY KEY IDENTITY(1,1),
+--	Name VARCHAR(30) NOT NULL,
+--	Sales DECIMAL NOT NULL DEFAULT 0,
+--);
+
+--CREATE TABLE Orders (
+--	Id INT PRIMARY KEY IDENTITY(1,1),
+--	Description VARCHAR(80),
+--	OrderTotal DECIMAL NOT NULL DEFAULT 0,
+--	CustomerId INT NOT NULL FOREIGN KEY REFERENCES Customer(Id)
+--);
+
+--INSERT INTO Customer (Name, Sales)
+--	VALUES ('MAX Technical Training', 1000);
+
+--SELECT * 
+--FROM Orders
+
+--INSERT INTO Orders (Description, OrderTotal, CustomerId)
+--	VALUES ('My First Order', 200, 1);
+
+--SELECT CustomerID, Description, OrderTotal, Name
+--	FROM Customer JOIN Orders ON Customer.Id = Orders.CustomerId
